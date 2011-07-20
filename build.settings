@@ -1,0 +1,24 @@
+settings =
+{
+		android =
+		{
+			versionCode = "1"
+		},
+        orientation =
+        {
+                default = "portrait",
+				content = "portrait",
+				supported =
+					{
+						"portrait", "portraitUpsideDown",
+					},
+        },
+ 
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true
+                },
+        }
+}
